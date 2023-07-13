@@ -31,4 +31,7 @@ describe('Story 3 user test cases', () => {
   it('when given [1,1], it should return [0,0]', () => {
     expect(smaller([1,1])).toEqual([0,0]);
   });
+  it('when given [2,2], it should return [0,0]', () => {
+    expect(smaller([2,2])).toEqual([0,0]);
+  });
 });
