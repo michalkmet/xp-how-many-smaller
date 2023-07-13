@@ -24,9 +24,9 @@ Story 1 - User can pass in wrong input or empty array, it should return exceptio
  - ✅ UAT 1.3 - when given integer, it should return exception
 
 Story 2 - User can pass in 1 number, it should return [0]
- - ⚠ UAT 2.1 - when given [1], it should return [0]
- - ⚠ UAT 2.2 - when given [0], it should return [0]
- - ⚠ UAT 2.3 - when given [10], it should return [0]
+ - ✅ UAT 2.1 - when given [1], it should return [0]
+ - ✅ UAT 2.2 - when given [0], it should return [0]
+ - ✅ UAT 2.3 - when given [10], it should return [0]
 
 Story 3 - User can pass in 2 same numbers
  - ⚠ UAT 3.1 - when given [0,0], it should return [0,0]
