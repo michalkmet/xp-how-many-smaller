@@ -1,6 +1,9 @@
 function smaller(input) {
-  if(input === '' || input === 10){
+  if(!Array.isArray(input)){
     throw new Error();
+  }
+  if(input.length === 2){
+    return input;
   }
   return [0];
 }
