@@ -18,4 +18,4 @@ If you've completed this one and you feel like testing your performance tuning o
 Story 1 - User can pass in wrong input or empty array, it should return exception or empty array
  - ✅ UAT 1.1 - when given string, it should return exception
  - ✅ UAT 1.2 - when given empty array, it should return [0]
- - 🚧 UAT 1.3 - when given integer, it should return exception
+ - ✅ UAT 1.3 - when given integer, it should return exception
