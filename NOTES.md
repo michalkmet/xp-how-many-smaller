@@ -45,3 +45,6 @@ Story 6 - User can pass in 3 same numbers
 
 Story 7 - User can pass in 3 numbers from smaller to higher order  
  - ✅ UAT 7.1 - when given [0, 5, 10], it should return [0,0,0]
+
+Story 8 - User can pass in 3 numbers from higher to smaller order  
+ - ✅ UAT 8.1 - when given [10, 9, 8], it should return [2,1,0]
