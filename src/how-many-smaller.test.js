@@ -11,3 +11,9 @@ describe('Story 1 user test cases', () => {
     expect(() => smaller(10)).toThrow();
   });
 });
+
+describe('Story 2 user test cases', () => {
+  it('when given [1], it should return [0]', () => {
+    expect(smaller([1])).toEqual([0]);
+  });
+});
