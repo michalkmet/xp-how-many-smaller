@@ -31,6 +31,6 @@ Story 3 - User can pass in 2 same numbers
  - ✅ UAT 3.3 - when given [2,2], it should return [0,0]
 
 Story 4 - User can pass in 2 different numbers, first is smaller
- - 🚧 UAT 4.1 - when given [0,1], it should return [0,0]
- - ⚠ UAT 4.2 - when given [1,2], it should return [0,0]
+ - ✅ UAT 4.1 - when given [0,1], it should return [0,0]
+ - ✅ UAT 4.2 - when given [1,2], it should return [0,0]
  - ⚠ UAT 4.3 - when given [9,10], it should return [0,0]
