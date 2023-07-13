@@ -44,10 +44,10 @@ Story 5 - User can pass in 2 different numbers, second is smaller
  - ✅ UAT 5.3 - when given [9,3], it should return [1,0]
 
 Story 6 - User can pass in 3 same numbers 
- - ⚠ UAT 6.1 - when given [5, 5, 5], it should return [0,0,0]
+ - ✅ UAT 6.1 - when given [5, 5, 5], it should return [0,0,0]
 
 Story 7 - User can pass in 3 numbers from smaller to higher order  
- - ⚠ UAT 7.1 - when given [0, 5, 10], it should return [0,0,0]
+ - ✅ UAT 7.1 - when given [0, 5, 10], it should return [0,0,0]
 
 Story 8 - User can pass in 3 numbers from higher to smaller order  
  - ⚠ UAT 8.1 - when given [10, 9, 8], it should return [2,1,0]
