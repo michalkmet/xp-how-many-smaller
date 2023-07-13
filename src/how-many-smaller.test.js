@@ -77,3 +77,9 @@ describe('Story 8 user test cases', () => {
     expect(smaller([10,9,8])).toEqual([2,1,0]);
   });
 });
+
+describe('Story 9 user test cases', () => {
+  it('when given [8, 9, 8], it should return [1,1,0]', () => {
+    expect(smaller([8, 9, 8])).toEqual([1,1,0]);
+  });
+});
