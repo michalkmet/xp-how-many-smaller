@@ -16,4 +16,7 @@ describe('Story 2 user test cases', () => {
   it('when given [1], it should return [0]', () => {
     expect(smaller([1])).toEqual([0]);
   });
+  it('when given [0], it should return [0]', () => {
+    expect(smaller([0])).toEqual([0]);
+  });
 });
