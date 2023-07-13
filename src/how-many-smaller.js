@@ -2,23 +2,24 @@ function smaller(arrayOfNumbers) {
   if(!Array.isArray(arrayOfNumbers)){
     throw new Error();
   }
+
+  let result = [];
   
   if(arrayOfNumbers.length < 2) {
     return [0];
   }
-
-  let firstNumber = arrayOfNumbers[0];
-  let secondNumber = arrayOfNumbers[1];
-
-  if(firstNumber === secondNumber || firstNumber < secondNumber){
-    return [0,0];
-  }
-  if(secondNumber < firstNumber) {
-    return [1,0];
-  }
   
-
-  return [0];
+  for(let i=0;i<arrayOfNumbers.length;i++){
+    let currentNumber = arrayOfNumbers[i];
+    let higherNumbersCounts = 0;
+    for(let j=i+1;j<arrayOfNumbers.length;j++){
+      if(arrayOfNumbers[j] < currentNumber){
+        higherNumbersCounts++;
+      }
+    }
+    result.push(higherNumbersCounts);
+  }
+  return result;
 }
 
 module.exports = smaller;
