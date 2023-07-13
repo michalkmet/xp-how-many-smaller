@@ -52,4 +52,7 @@ describe('Story 5 user test cases', () => {
   it('when given [1,0], it should return [1,0]', () => {
     expect(smaller([1,0])).toEqual([1,0]);
   });
+  it('when given [4,3], it should return [1,0]', () => {
+    expect(smaller([4,3])).toEqual([1,0]);
+  });
 });
