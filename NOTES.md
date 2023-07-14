@@ -50,4 +50,4 @@ Story 8 - User can pass in 3 numbers from higher to smaller order
  - ✅ UAT 8.1 - when given [10, 9, 8], it should return [2,1,0]
 
 Story 9 - User can pass in 3 numbers, middle is higher then other 2 (those are same)
- - 🚧 UAT 9.1 - when given [8, 9, 8], it should return [1,1,0]
+ - ✅ UAT 9.1 - when given [8, 9, 8], it should return [0,1,0]
