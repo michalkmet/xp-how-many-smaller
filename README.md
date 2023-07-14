@@ -56,7 +56,7 @@ Story 9 - User can pass in 3 numbers, middle is higher then other 2 (those are s
  - ✅ UAT 9.1 - when given [8, 9, 8], it should return [0,1,0]
 
 Story 10 - User can pass in 3 numbers, first two are higher then the last
- - ⚠ UAT 10.1 - when given [9, 9, 8], it should return [1,1,0]
+ - ✅ UAT 10.1 - when given [9, 9, 8], it should return [1,1,0]
 
 Story 11 - User can pass in 3 numbers, last two are higher then the first
  - ⚠ UAT 11.1 - when given [1, 2, 2], it should return [0,0,0]
